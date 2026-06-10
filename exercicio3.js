@@ -9,7 +9,7 @@ preçoPorUnidade = prompt ("INFORME O VALOR DE CADA UNIDADE")
 produtosAdquiridos = parseFloat(produtosAdquiridos)
 preçoPorUnidade = parseFloat(preçoPorUnidade)
 
-valorTotalDeCompra= produtosAdquiridos/preçoPorUnidade
+valorTotalDeCompra = produtosAdquiridos * preçoPorUnidade
 
-alert("o valor dos produtos é" + valorTotalDeCompra + "total")
+alert("o valor total dos produtos é" + valorTotalDeCompra + "reais")
 
