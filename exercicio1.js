@@ -1,15 +1,14 @@
-let distanciaPercorida //entrada - input
-let combustivelEmLitros //entrada - input
-let consumoMedio // saida ouput
+let  quantidadeDeHoras //entrada-input
+let valorPagoPorHoras //entrada-input
+let salarioMensal //saida ouput
 
-distanciaPercorida = prompt("INFORME A DISTANCIA A SER PERCORRIDA EM KM")
+quantidadeDeHoras = prompt("INFORME A QUANTIDADE DE HORAS TRABALHADAS")
 
-combustivelEmLitros = prompt("INFORME A QUANTIDADE GASTA DE COMBUSTIVEL EM LITROS")
+valorPagoPorHoras = prompt("INFORME O VALOR POR HORAS")
 
-distanciaPercorida = parseFloat(distanciaPercorida)
-combustivelEmLitros= parseFloat(combustivelEmLitros)
+quantidadeDeHoras = parseFloat(quantidadeDeHoras)
+valorPagoPorHoras = parseFloat(valorPagoPorHoras)
 
+salarioMensal = quantidadeDeHoras / valorPagoPorHoras
 
-consumoMedio =  distanciaPercorida / combustivelEmLitros
-
-alert("O consumo medio do veiculo é:" + consumoMedio + "litros por km rodado")
+alert("o salario é:" + salarioMensal + "reais" )

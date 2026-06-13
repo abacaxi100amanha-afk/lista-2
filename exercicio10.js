@@ -9,3 +9,5 @@ litros = parseFloat(litros)
 preçoLitro = parseFloat(preçoLitro)
 
 total = litros * preçoLitro
+
+alert("O VALOR TOTAL A PAGAR PELO COMBUSTIVEL É:" + total + "reais")
